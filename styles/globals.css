@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.globalCss{
+    margin: 2px 0px 0px 155px;
+    padding: 30px;
+}
