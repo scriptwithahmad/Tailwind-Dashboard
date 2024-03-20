@@ -51,12 +51,12 @@ const Sidebar = () => {
                 >
                   <FaHouse
                     className={`text-gray-500 ${
-                      router.pathname === "/" ? "text-[#7079d3]" : ""
+                      router.pathname === "/" ? "text-[#646ed4]" : ""
                     }`}
                   />
                   <div
                     className={`text-gray-500 ${
-                      router.pathname === "/" ? "text-[#7079d3]" : ""
+                      router.pathname === "/" ? "text-[#646ed4]" : ""
                     }`}
                   >
                     Home
@@ -75,14 +75,14 @@ const Sidebar = () => {
                   <FaAddressBook
                     className={`text-gray-500 ${
                       router.pathname === "/Participants"
-                        ? "text-[#7079d3]"
+                        ? "text-[#646ed4]"
                         : ""
                     }`}
                   />
                   <div
-                    className={`text-gray-500 ${
+                    className={`text-[gray] ${
                       router.pathname === "/Participants"
-                        ? "text-[#7079d3]"
+                        ? "text-[#646ed4]"
                         : ""
                     }`}
                   >
@@ -101,12 +101,12 @@ const Sidebar = () => {
                 >
                   <FaUsers
                     className={`text-gray-500 ${
-                      router.pathname === "/Team" ? "text-[#7079d3]" : ""
+                      router.pathname === "/Team" ? "text-[#646ed4]" : ""
                     }`}
                   />
                   <div
                     className={`text-gray-500 ${
-                      router.pathname === "/Team" ? "text-[#7079d3]" : ""
+                      router.pathname === "/Team" ? "text-[#646ed4]" : ""
                     }`}
                   >
                     Team
@@ -124,12 +124,12 @@ const Sidebar = () => {
                 >
                   <FaPrint
                     className={`text-gray-500 ${
-                      router.pathname === "/Invoice" ? "text-[#7079d3]" : ""
+                      router.pathname === "/Invoice" ? "text-[#646ed4]" : ""
                     }`}
                   />
                   <div
                     className={`text-gray-500 ${
-                      router.pathname === "/Invoice" ? "text-[#7079d3]" : ""
+                      router.pathname === "/Invoice" ? "text-[#646ed4]" : ""
                     }`}
                   >
                     Invoice
@@ -148,14 +148,14 @@ const Sidebar = () => {
                   <FaTable
                     className={`text-gray-500 ${
                       router.pathname === "/RegisterTable"
-                        ? "text-[#7079d3]"
+                        ? "text-[#646ed4]"
                         : ""
                     }`}
                   />
                   <div
                     className={`text-gray-500 ${
                       router.pathname === "/RegisterTable"
-                        ? "text-[#7079d3]"
+                        ? "text-[#646ed4]"
                         : ""
                     }`}
                   >
@@ -174,12 +174,12 @@ const Sidebar = () => {
                 >
                   <FaTable
                     className={`text-gray-500 ${
-                      router.pathname === "/TeamsTable" ? "text-[#7079d3]" : ""
+                      router.pathname === "/TeamsTable" ? "text-[#646ed4]" : ""
                     }`}
                   />
                   <div
                     className={`text-gray-500 ${
-                      router.pathname === "/TeamsTable" ? "text-[#7079d3]" : ""
+                      router.pathname === "/TeamsTable" ? "text-[#646ed4]" : ""
                     }`}
                   >
                     Teams Table
